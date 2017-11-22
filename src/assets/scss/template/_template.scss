@@ -92,6 +92,33 @@ h6 {
   font-weight: bold;
 }
 
+.inline {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.show-title {
+  font-size: 0.95em;
+  margin-top: 0.25em;
+}
+
+.social-footer-links {
+  color: #dddaef;
+  a {
+    color: #dddaef;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  margin-bottom: 1em;
+}
+
+.social-footer-icons {
+  small {
+    vertical-align: super;
+  }
+}
+
 // Social Media
 table.button.facebook table td {
   background: #3B5998 !important;
