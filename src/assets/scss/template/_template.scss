@@ -65,7 +65,7 @@ h6 {
 
 // Full Width Footers
 .footer {
-  background: #544f63;
+  background-color: #544f63;
   padding: 1em;
 }
 
@@ -103,9 +103,10 @@ h6 {
 }
 
 .social-footer-links {
-  color: #dddaef;
+  font-size: 14px;
+  color: #a5a0b4;
   a {
-    color: #dddaef;
+    color: #a5a0b4;
     &:hover {
       text-decoration: underline;
     }
